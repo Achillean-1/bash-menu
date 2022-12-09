@@ -43,6 +43,14 @@ function read_input(){
     esac
 }
 
+function ls () {
+    command ls -lh
+}
+
+function sleep(){
+    sleep 10
+}
+
 while true
     do
     clear
